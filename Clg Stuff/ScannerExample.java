@@ -9,6 +9,7 @@ public class ScannerExample {
         String name = scan.nextLine();
         int rollno;
         int marks, s1, s2, s3;
+
         // Insert rollno and marks from console
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the Roll No: ");
@@ -17,6 +18,7 @@ public class ScannerExample {
         s1 = input.nextInt();
         s2 = input.nextInt();
         s3 = input.nextInt();
+        
         // Print the data
         marks = s1 + s2 + s3;
         System.out.println("\n Name is: " + name);
