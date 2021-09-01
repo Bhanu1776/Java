@@ -19,7 +19,7 @@ public class Test {      //* Harry
 
     public static void main (String[] args){
         String b = "Test";
-        System.out.println(b);          //* Red dot to breakpoint debuging 
+        System.out.println(b);          //* Red dot means to breakpoint debuging 
     }
 }
 
