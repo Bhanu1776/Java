@@ -10,7 +10,7 @@ System.out.print("Enter second number- ");
 int b= sc.nextInt();  
 System.out.print("Enter third number- ");  
 int c= sc.nextInt();  
-int d=a+b+c;  
+int d=a+b+c;   
 System.out.println("Total= " +d);  
 }  
 } 
