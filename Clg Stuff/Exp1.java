@@ -29,6 +29,7 @@ public class Exp1 {
         System.out.print("Enter marks in English: ");
         s5 = input.nextInt();
 
+        int total = s1+s2+s3+s4+s5;
 
         System.out.println("\n Name is: " + name);
         System.out.println(" Roll No: " + rollno);
@@ -38,7 +39,7 @@ public class Exp1 {
         System.out.println("Marks in Maths: " + s3);
         System.out.println("Marks in Biology: " + s4);
         System.out.println("Marks in English: " + s5);
-
+        System.out.println("\nTotal marks: "+ total);
         input.close();
     }
 }
