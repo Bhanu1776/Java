@@ -24,6 +24,12 @@ public class Exp2 {
 
         System.out.println("\nEmployee Name : "+ name);
         System.out.println("Employee ID : "+ empno);
+        System.out.println("Basic: "+salary);
+        System.out.println("DA: "+DA);
+        System.out.println("HRA: "+HRA);
+        System.out.println("CCA: "+CCA);
+        System.out.println("PT: "+PT);
+        System.out.println("PF: "+PF);
         System.out.println("Gross Salary : "+ GrossSalary);
         System.out.println("Net Salary : "+ NetSalary);
         
