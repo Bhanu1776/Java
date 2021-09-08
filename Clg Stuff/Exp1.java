@@ -40,6 +40,6 @@ public class Exp1 {
         System.out.println("Marks in Biology: " + s4);
         System.out.println("Marks in English: " + s5);
         System.out.println("\nTotal marks: "+ total);
-        input.close();  
+        input.close();
     }
 }
