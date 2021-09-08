@@ -32,7 +32,5 @@ public class Exp2 {
         System.out.println("PF: "+PF);
         System.out.println("Gross Salary : "+ GrossSalary);
         System.out.println("Net Salary : "+ NetSalary);
-        
-
     }
 }
