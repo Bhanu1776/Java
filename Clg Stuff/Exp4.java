@@ -27,39 +27,68 @@ public class Exp4 {
         System.out.print("Enter Your Address: ");
         Scanner add = new Scanner(System.in);
         String address = add.nextLine();
+        
+        System.out.println("\n\nFirst you need to an Create account");
+        System.out.print("Enter your name to Create an account: ");
+        String na = n.nextLine();
+        System.out.println("\nYour Account is created with " + na + " account holder name.");
 
-        System.out.println("\n\nEnter 1 to 5 to view the following Stuff \n" +
-                            "1.CreateAccount\n" + 
-                            "2.Deposit\n" +
-                            "3.WithDraw\n" +
-                            "4.ComputeInterest\n" +
-                            "5.DisplayBalance\n");
+        System.out.println("\n\nEnter 1 to 4 to view the following Stuff \n" +
+                            "1.Deposit\n" +
+                            "2.WithDraw\n" +
+                            "3.ComputeInterest\n" +
+                            "4.DisplayBalance\n");
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
 
-        if (input>=0 && input<=5){
+
+        if (input>=0 && input<=4){
         
             switch(input){
+
                 case 1:
-                System.out.println("Your Account is Created !!");
+                System.out.print("Enter the Amount you want to Deposit: ");
+                int dep = acc.nextInt();
+                double d = balance + dep;
+                System.out.println("Your Amount is successfully Deposited !!");
+                System.out.println("Your Final Balance is = "+ d +"rs");
                 break;
+
                 case 2:
-                System.out.println("Your Amount is Deposited !!");
+                System.out.print("Enter the Amount you want to withdraw: ");
+                int with = acc.nextInt();
+                double w = balance - with;
+                if (with > balance){
+                    System.out.println("Withdraw amout is Greater than Balance\n"+"Please Enter Valid Amount for withdrawl !!");
+                }
+                else{
+                System.out.println("Your Amount is withdrawn successfully !!");
+                System.out.print("Your Final Balance is " + w + "rs");
+                }
                 break;
+
                 case 3:
-                System.out.println("You can withdraw your Amount !!");
+                System.out.print("Enter Time Period in Years: ");
+                int time = acc.nextInt();
+                double i = (balance*time*interest)/100;
+                System.out.println("Calculated interest is: "+i);
                 break;
+
                 case 4:
-                System.out.println("ComputeInterest");
-                break;
-                case 5:
-                System.out.println("Your Account Balance is 0 , #Garib !!");
+                System.out.println("Your Account Balance is: "+balance+ "rs");
                 break;
 
             }
         }
         else{
-            System.out.println("Enter Valid Number !!!!");
+            System.out.println("Enter Valid choice !!!!");
         }
+        n.close();
+        acc.close();
+        ib.close();
+        ri.close();
+        num.close();
+        add.close();
+        in.close();
     }
 }
