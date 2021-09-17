@@ -28,20 +28,22 @@ public class Exp4 {
         Scanner add = new Scanner(System.in);
         String address = add.nextLine();
         
+        
+        System.out.println("\n\nEnter 1 to 4 to view the following Stuff \n" +
+        "1.Deposit\n" +
+        "2.WithDraw\n" +
+        "3.ComputeInterest\n" +
+        "4.DisplayBalance\n");
+        Scanner in = new Scanner(System.in);
+        int input = in.nextInt();
+        
+        if(input==1){
         System.out.println("\n\nFirst you need to an Create account");
         System.out.print("Enter your name to Create an account: ");
         String na = n.nextLine();
         System.out.println("\nYour Account is created with " + na + " account holder name.");
-
-        System.out.println("\n\nEnter 1 to 4 to view the following Stuff \n" +
-                            "1.Deposit\n" +
-                            "2.WithDraw\n" +
-                            "3.ComputeInterest\n" +
-                            "4.DisplayBalance\n");
-        Scanner in = new Scanner(System.in);
-        int input = in.nextInt();
-
-
+        }
+        
         if (input>=0 && input<=4){
         
             switch(input){
