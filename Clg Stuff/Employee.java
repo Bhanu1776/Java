@@ -1,36 +1,43 @@
-//* Methods In Java !!
+//* Exp6 
 
-import java.io.*;
-public class Employee
-{  
- // this instance variable is visible for any child class.  
- public String name;      
- 
-// salary  variable is visible in Employee class only.  
- private double salary;    
+class Employee
+{   
+    public String empName;
+    public int empSalary;
+    public String address;
 
-  // The name variable is assigned in the constructor.  
-  public Employee (String empName)
-{    
-  name = empName;  
- }   
 
-// The salary variable is assigned a value. 
-  public void setSalary(double empSal)
-{      
-salary = empSal; 
-  }      
+    public Employee()
+    {
+        
+        this("ABC");
+    }
 
-// This method prints the employee details.  
- public void printEmp()
-{      System.out.println("name  : " + name );   
-   System.out.println("salary :" + salary);   
-} 
+    public Employee(String name)
+    {
+        
+    	this(name, 54);
+    }
+    public Employee(String name, int sal)
+    {
+        
+    	this(name, sal, "Mumbai");
+    }
+    public Employee(String name, int sal, String addr)
+    {
+    	this.empName=name;
+    	this.empSalary=sal;
+    	this.address=addr;
+    }
 
-  public static void main(String args[])
-{  
-    Employee empOne = new Employee("Rasika");      
-    empOne.setSalary(1000);      
-    empOne.printEmp();  
- }
+    void disp() {
+    	System.out.println("Employee Name: "+empName);
+    	System.out.println("Employee Salary: "+empSalary);
+    	System.out.println("Employee Address: "+address);
+    }
+    public static void main(String[] args)
+    {
+        Employee obj = new Employee();
+        obj.disp();
+    }
 }
