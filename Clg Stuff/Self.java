@@ -25,6 +25,7 @@ public class Self{
                 factorial *=i;
             }
             System.out.println("The factorial of a is : "+factorial);
+            break;
 
             case 2:                 // Amstrong = Sum of the cubes of its own digits , 0 to 9 ,153,370,371,407
             int originalNum =(int)a;
@@ -40,6 +41,7 @@ public class Self{
             else{
                 System.out.println("Entered number is not Amstrong Number !!");
             }
+            break;
 
             case 3:             // Palindrome = An Integer is palindrome if the reverse of that number is equal to original number ..
             int original;
@@ -57,6 +59,7 @@ public class Self{
             else {
                 System.out.println("Entered number is not Palindrome !");
             }
+            break;
 
             case 4:         // To Check wheter entered number is prime no. or not ..
             int i;
@@ -79,7 +82,8 @@ public class Self{
                     System.out.println("Entered number is not a prime number !!");
                 }
             }
-            
+            break;
+
             case 5:         //the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 followed by 1
                             // 0, 1, 1, 2, 3, 5, 8, 13, 21
             int n1 = 0;
@@ -95,6 +99,7 @@ public class Self{
                 n1 = n2;
                 n2= sum;   
             }
+            break;
         }
     }
 }
