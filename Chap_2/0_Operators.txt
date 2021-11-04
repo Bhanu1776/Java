@@ -1,1 +1,0 @@
-Chap 2 === Operators, Type of Operators and & Expressions in java 
