@@ -1,6 +1,7 @@
 package src;
+//* 2) Method Overloading : Changing the body of a method of a parent class by the child class and providing new body is called MethodOverriding ..
 
-public class Method_Overriding {        //* Changing the body of a method of a parent class by the child class and providing new body is called MethodOverriding ..
+public class Method_Overriding {
     public static void main(String[] args) {
 
         Child obj = new Child();
