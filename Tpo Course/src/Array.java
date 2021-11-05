@@ -14,6 +14,13 @@ public class Array{
             arr[i]= a.nextInt();            //* taking input in array ..
         }
 
+        System.out.println("By Enhanced For loop ");
+
+        for (int i : arr){                  //* This is enhanced for loop , By this way also we can print array elements ..
+            System.out.println(i);
+        }
+
+        System.out.println("Array elements are : ");
         for(int i=0 ; i<=4; i++){          
 
             System.out.print(arr[i]+" ");
