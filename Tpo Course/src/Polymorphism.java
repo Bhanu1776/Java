@@ -1,6 +1,6 @@
 package src;
 
-//* Polymorphism : One object which exist in many forms is called polymorphism
+//* Polymorphism : One object which exist in many forms is called polymorphism ... Compile Time Polymorphism 
 
 public class Polymorphism {
 
