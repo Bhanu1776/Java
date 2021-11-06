@@ -55,7 +55,7 @@ public class Basics {               //* Class named Basics from src package (Fir
 
 // Excess speicfier : Which is used to decide status(public or private) of class or method .. If we doesn't specify any Excess specifier to a class or method then by default it stays "DEFAULT" 
 // public : Which can be accessible by any class ..
-// private : Which can be only accessible by own class nor different class 
+// private : Which can be only accessible by own class nor different class .. //* To access Private method or funtions we use 'getters' and 'setters' func ..
 // default : If we doesn't specify any Excess specifier to a method then, that method can be accessible by all the classes of same package ..
 // protected : Which can be only accessible by Child Class ..
 
