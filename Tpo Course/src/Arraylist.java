@@ -4,6 +4,8 @@ import java.util.*;                 // ArrayList func are present in this packag
 //* Arraylist : Arraylist implements list interface and it is based on an Array data structure ..
 //*             Arraylist can dynamically grow and shrink after addition and removal of elements ..
 
+//* Vector : Dynamic array that can grow or shrink on its own ..
+
 public class Arraylist {
     public static void main(String[] args) {
         
