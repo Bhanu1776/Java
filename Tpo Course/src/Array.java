@@ -16,7 +16,7 @@ public class Array{
 
         System.out.println("By Enhanced For loop ");
 
-        for (int i : arr){                  //* This is enhanced for loop , By this way also we can print array elements ..
+        for (int i : arr){                  //* This is enhanced for loop or we can say forEach Loop, By this way also we can print array elements ..
             System.out.println(i);
         }
 
