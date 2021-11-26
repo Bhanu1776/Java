@@ -1,32 +1,34 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Exp19 {
     int tap = 0;
 
     Exp19() {
-        JFrame frame = new JFrame("Experiment 19.");
+        JFrame frame = new JFrame("");
         DefaultListModel<String> collect = new DefaultListModel<>();
         collect.addElement("India");
         collect.addElement("America");
         collect.addElement("Russia");
         collect.addElement("Japan");
+
         JList list = new JList(collect);
         list.setBounds(20, 40, 70, 200);
+
         JButton add = new JButton("ADD");
         add.setBounds(100, 40, 60, 20);
         JButton search = new JButton("SEARCH");
         search.setBounds(170, 40, 100, 20);
         JButton sort = new JButton("SORT");
         sort.setBounds(280, 40, 90, 20);
+
         JTextField box = new JTextField("");
         box.setBounds(100, 70, 210, 50);
         box.setVisible(false);
+
         JButton done = new JButton("DONE");
         done.setBounds(220, 125, 90, 20);
         done.setVisible(false);
@@ -97,6 +99,7 @@ public class Exp19 {
                 }
             }
         });
+
         frame.add(sort);
         frame.add(search);
         frame.add(add);
