@@ -8,25 +8,26 @@ public class Exp19 {
     int tap = 0;
 
     Exp19() {
-        JFrame frame = new JFrame("");
+        JFrame frame = new JFrame("Indian Cricket Team");
         DefaultListModel<String> collect = new DefaultListModel<>();
-        collect.addElement("India");
-        collect.addElement("America");
-        collect.addElement("Russia");
-        collect.addElement("Japan");
+        collect.addElement("Rohit");
+        collect.addElement("KL Rahul");
+        collect.addElement("Virat Kohili");
+        collect.addElement("MS Dhoni");
 
         JList list = new JList(collect);
-        list.setBounds(20, 40, 70, 200);
+        list.setBounds(20, 40, 120, 150);
 
         JButton add = new JButton("ADD");
-        add.setBounds(100, 40, 60, 20);
+        add.setBounds(160, 40, 80, 20);
         JButton search = new JButton("SEARCH");
-        search.setBounds(170, 40, 100, 20);
+        search.setBounds(230, 40, 120, 20);
         JButton sort = new JButton("SORT");
-        sort.setBounds(280, 40, 90, 20);
+        sort.setBounds(340, 40, 90, 20);
 
         JTextField box = new JTextField("");
-        box.setBounds(100, 70, 210, 50);
+        box.setBounds(150, 70, 210, 50);
+        box.setFont(box.getFont().deriveFont(20.0f));
         box.setVisible(false);
 
         JButton done = new JButton("DONE");
@@ -106,7 +107,7 @@ public class Exp19 {
         frame.add(list);
         frame.add(box);
         frame.add(done);
-        frame.setSize(400, 400);
+        frame.setSize(700, 500);
         frame.setLayout(null);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

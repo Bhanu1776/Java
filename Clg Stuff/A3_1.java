@@ -3,27 +3,14 @@ import java.util.Scanner;
 class Book {
     Scanner sc = new Scanner(System.in);
 
-    void availableBooks() {             //! Dont do this one 
-        // System.out.println("*********************************");
-        // System.out.println("<---Welcome To Our Book Store--->");
-        // System.out.println("*********************************");
-        // System.out.println();
-        // System.out.println("[ Showing Available Books And Click The Serial No. To Get Info About Book ]");
-        // System.out.println();
-        // System.out.println("===========================");
-        // System.out.println("| |");
-        // System.out.println("| ------------- |");
-        // System.out.println("| | Anshu Book | |");
-        // System.out.println("| | DEPO | |");
-        // System.out.println("| ------------- |");
-        // System.out.println("| 1.EM-3 |");
-        // System.out.println("| 2.DBMS |");
-        // System.out.println("| 3.DSA |");
-        // System.out.println("| 4.PCOM |");
-        // System.out.println("| 5.PCPF |");
-        // System.out.println("| |");
-        // System.out.println("===========================");
-        // System.out.println();
+    void availableBooks() {             
+        
+        System.out.println("| 1.EM-3 |");
+        System.out.println("| 2.DBMS |");
+        System.out.println("| 3.DSA |");
+        System.out.println("| 4.PCOM |");
+        System.out.println("| 5.PCPF |");
+        System.out.println();
     }
 
     void display() {
@@ -77,14 +64,14 @@ class Book {
 
 class Magazine extends Book {
     void availableMagazine() {
-        System.out.println("\n*------Showing Available Magazines------*");
+        System.out.println("\n*------ Available Magazines ------*");
         System.out.println(
                 "1.Filmfare Magazine.\n2.India Today Magazine.\n3.TIME Magazine.\n4.Forbes India Magazine.\n5.Harvard Business Review HBR Magaine.");
     }
 
     void display() {
         int select;
-        System.out.println("\nSelect The Index Between (1-5) To Get Info About Magazine.");
+        System.out.print("\nSelect The Index Between (1-5) To Get Info About Magazine: ");
         select = sc.nextInt();
         switch (select) {
         case 1: {

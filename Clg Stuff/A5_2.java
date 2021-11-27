@@ -4,15 +4,15 @@ import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class A5_2 {                 //! Dont do this one !
+public class A5_2 {                 
     A5_2() {
         Frame frame = new Frame("STUDENT PROFILE");
         Font F = new Font("Verdana", Font.BOLD, 15);
-        Label SP = new Label(" XAVIER INSTITUTE OF ENGINEERING : STUDENT PROFILE FORM ");
+        Label SP = new Label(" STUDENT PROFILE FORM ");
         SP.setBounds(0, 40, 600, 50);
         SP.setFont(F);
         SP.setAlignment(Label.CENTER);
-        SP.setBackground(Color.black);
+        SP.setBackground(Color.blue);
         SP.setForeground(Color.WHITE);
         Label firstname = new Label("Firstname : ");
         firstname.setBounds(10, 110, 70, 20);
@@ -96,7 +96,7 @@ public class A5_2 {                 //! Dont do this one !
         emergency.setFont(F);
         emergency.setBounds(0, 440, 600, 50);
         emergency.setAlignment(Label.CENTER);
-        emergency.setBackground(Color.RED);
+        emergency.setBackground(Color.black);
         emergency.setForeground(Color.white);
         Label name = new Label("Name : ");
         name.setBounds(10, 500, 70, 20);
@@ -151,7 +151,7 @@ public class A5_2 {                 //! Dont do this one !
         frame.add(nam);
         frame.add(Contact);
         frame.add(cnn);
-        frame.setSize(600, 600);
+        frame.setSize(500, 600);
         frame.setLayout(null);
         frame.setVisible(true);
         male.addItemListener(new ItemListener() {
