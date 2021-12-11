@@ -1,0 +1,82 @@
+{
+	"folders": [
+		{
+			"name": "C-Lang",
+			"path": "../../C-Lang"
+		},
+		{
+			"name": "Java",
+			"path": ".."
+		},
+		{
+			"name": "DS_Algo",
+			"path": "../../DS_Algo"
+		},
+		{
+			"name": "MySQL-DBMS",
+			"path": "../../MySQL-DBMS"
+		},
+		{
+			"name": "Full_Stack_Dev",
+			"path": "../../Full_Stack_Dev"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			""
+		],
+		"liveServer.settings.multiRootWorkspaceName": "Full_Stack_Dev",
+		"makefile.extensionOutputFolder": "./.vscode",
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "test",
+				"database": "test",
+				"username": "test",
+				"password": ""
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "tp",
+				"database": "Timepass",
+				"username": "tp",
+				"password": ""
+			}
+		],
+		"files.exclude": {
+			"**/.class": true,
+			"**/.exe": true
+		},
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"Tpo Course/libb/javafx.base.jar",
+			"Tpo Course/libb/javafx.controls.jar",
+			"Tpo Course/libb/javafx.fxml.jar",
+			"Tpo Course/libb/javafx.graphics.jar",
+			"Tpo Course/libb/javafx.media.jar",
+			"Tpo Course/libb/javafx.swing.jar",
+			"Tpo Course/libb/javafx.web.jar",
+			"Tpo Course/libb/javafx-swt.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.base.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.controls.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.fxml.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.graphics.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.media.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.swing.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx.web.jar",
+			"/home/bunny/Downloads/javafx-sdk-17.0.1/lib/javafx-swt.jar"
+		]
+	}
+}
